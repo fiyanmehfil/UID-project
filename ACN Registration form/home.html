@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+   <head>
+    <title>Registration Form</title>
+<style>
+  .box{
+         
+          padding-left: 480px;
+  }
+</style>
+   </head>
+<body background="amrita.jpg"style = "background-repeat:no-repeat;background-size:100% 100% "> 
+    
+          <form>
+		  <img src="logo.jpg">
+		  <h3 align ="right">Fiyan Mehfill Ayoob</h3>
+		  <h3 align ="right">CH.EN.U4CYS21018</h3>
+		  <h1 align="center" style="color:#dd051e">Amrita Cyber Nation (ACN) 2022</h1>
+				<h2 align ="center">Student Registration Form</h2>
+				<br>
+        <div class="box">
+                <table style ="border-collapse: separate;
+                border-spacing:0 20px;column-gap: 50px;font-weight: bold;backdrop-filter: blur(20px);background: rgb(255, 255, 255);opacity: 0.75;font-family: times;">
+<tr>
+				
+                    <tr><td> Firstname:  </td>
+              <td><input type="text" name="firstname" placeholder= "Firstname" size="15" required /></td></tr>
+			    <tr><td> Middlename:  </td>
+              <td><input type="text" name="middlename" placeholder= "Middlename" size="15"  /></td></tr>
+              <tr><td> Lastname: </td><td>  
+              <input type="text" name="lastname" placeholder="Lastname" size="15"required /></td></tr> 
+              <tr><td> Email Id: </td><td>  
+              <input type="text" name="emailid" placeholder="example@gmail.com" size="15"required /></td></tr>
+			  <tr>
+			  
+              <td>Phone no:</td>
+              <td><input type="text" name="phoneno" placeholder="Phone no." size="10" pattern="{0-9}"/ required></td></tr>
+			  <tr>
+                <td>Gender :</td><td>
+                <input type="radio" value="Male" name="gender" checked > Male 
+                <input type="radio" value="Female" name="gender"> Female 
+                <input type="radio" value="Other" name="gender"> Other
+                </td>
+              </tr>
+              <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date"></td>
+              <label><tr> <td>ID Proof [ID Card/Aadhar Card]:</td></label>
+              <td>&nbsp;&nbsp;<input type="file" name="idproof"></td></tr>
+			  <tr><td>Team Details:</td>
+              <td><textarea cols="0" rows="3" placeholder="Team Details" value="address" required></textarea></td></tr>
+              <tr><td>Events</td>
+                <td><input type="checkbox" id="e1" >
+                <label for="e1"> Cyber Conclave </label>
+                <input type="checkbox" id="e2">
+                <label for="e2"> Cyber Industry Meet</label><br>
+                <input type="checkbox" id="e3">
+                <label for="e3">Amrita Tech Fest </label>
+                <input type="checkbox" id="e4">
+                <label for="e4">Cyber Abyaan </label></td></tr>
+			  <tr><td> Password: </td><td>  
+              <input type="text" name="password" placeholder="use strong password" size="15"required /></td></tr>
+              <tr><td> Confirm Password: </td><td>  
+              <input type="text" name="password" placeholder="retype password" size="15"required /></td></tr>
+			  <tr><td><button>Register</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="reset">Reset</button></td></tr>
+    </table>
+  </div>
+</form>
+   </body>
+ </html>
