@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+<style>
+body {
+              background-image: url('image.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed; 
+              background-size: 100% 100%;
+            }
+    .image{
+        padding-left: 560px;
+    }
+    h1{
+        color: red;
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+    h2{
+           font-size: 28px;
+    }
+</style>
+
+</head>
+<body>
+    <div class="image">
+    <h1>Fuel Consumption Calculator</h1>
+    <p>Distance Driven (km):<input id="distance" type="number" step="10" onchange="computeConsumption()"></p>
+    <p>Fuel Consumed (L):<input id="fuel" type="number" step="1" onchange="computeConsumption()"></p>
+    <p>Cost per Unit of Fuel: Rs <input id="costper" type="number" step="1" value="110" onchange="computeConsumption()"></p>
+    <h2 id="consumption"></h2>
+</div>
+    <script src="calculator.js"></script>
+</body>
